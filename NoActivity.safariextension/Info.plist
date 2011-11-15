@@ -9,13 +9,13 @@
 	<key>CFBundleDisplayName</key>
 	<string>NoActivity</string>
 	<key>CFBundleIdentifier</key>
-	<string>idev.mobi.noactivity</string>
+	<string>idev.mobi.safariext.twitter.noactivity</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>100</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -50,6 +50,8 @@
 			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://github.com/idevsoftware/NoActivity/raw/master/NoActivity.safariextension/UpdateManifest.plist</string>
 	<key>Website</key>
 	<string>http://idev.mobi</string>
 </dict>
