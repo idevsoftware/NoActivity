@@ -1,7 +1,7 @@
 {
 	"name": "NoActivity",
 	"version": "1.0",
-	"description": "Disable the \"Activity\" tab in twitter.com (and take back the \"Retweets\" one)",
+	"description": "By @iDevSoftware. Disable the \"Activity\" tab in twitter.com (and take back the \"Retweets\" one)",
 	"content_scripts": [
 		{
 			"matches": ["http://*.twitter.com/*", "https://*.twitter.com/*"],
