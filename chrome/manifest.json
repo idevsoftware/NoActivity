@@ -1,0 +1,16 @@
+{
+	"name": "NoActivity",
+	"version": "1.0",
+	"description": "Disable the \"Activity\" tab in twitter.com (and take back the \"Retweets\" one)",
+	"content_scripts": [
+		{
+			"matches": ["http://*.twitter.com/*", "https://*.twitter.com/*"],
+			"css": ["NoActivity.css"],
+			"js": ["NoActivity.js"],
+			"run_at": "document_end"
+		}
+	],
+	"content_security_policy": "default-src 'self' ",
+	"homepage_url": "http://idev.mobi",
+	"update_url": "https://github.com/idevsoftware/NoActivity/raw/master/chromeUpdates.xml"
+}
